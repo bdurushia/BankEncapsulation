@@ -40,6 +40,9 @@ namespace BankEncapsulation
                         Console.WriteLine("\n\t\tThank you for using Filthy Casual Banking Inc!\n\n\t\t\tPlease come again!");
                         runATM = false;
                         break;
+                    default:
+                        Console.WriteLine("\n\t\tInvalid entry. Try again.");
+                        break;
                 }
 
             }

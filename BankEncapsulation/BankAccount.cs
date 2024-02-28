@@ -9,7 +9,7 @@ namespace BankEncapsulation
     public class BankAccount
     {
         // Setting Property
-        private double _balance {  get; set; }
+        private double _balance { get; set; }
 
         // Methods
         public void Deposit(double addMoney)
